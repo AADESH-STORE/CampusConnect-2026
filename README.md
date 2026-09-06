@@ -1,14 +1,14 @@
 # 🎓 CampusConnect 2026
 
-### Student Event Registration Portal
+## Student Event Registration Portal
 
-CampusConnect 2026 is a dynamic Student Event Registration Portal developed as a practical project using the LAMP stack.
+CampusConnect 2026 is a dynamic Student Event Registration Portal developed as a practical examination project using the LAMP stack.
 
 The application allows students to register for campus events and log in using their registered credentials.
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
 - 🎓 Student Registration
 - 🔐 Student Login
@@ -17,48 +17,48 @@ The application allows students to register for campus events and log in using t
 - 🗄️ MySQL Database Integration
 - ✅ Registration Validation
 - ❌ Invalid Login Handling
-- 👋 Welcome Dashboard
-- 📱 Responsive Modern UI
+- 📊 Student Registration Data Storage
+- 🌐 Apache Web Server Deployment
+- 🐧 Linux Server Deployment
 - ☁️ AWS EC2 Deployment
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Linux / Ubuntu
-- Apache
 - PHP
 - MySQL
 - HTML5
 - CSS3
+- Apache2
+- Linux
 - AWS EC2
+- Git
+- GitHub
 
 ---
 
-## 📋 Registration Form
-
-The registration form contains:
-
-| Field | Required |
-|---|---|
-| Full Name | Yes |
-| Student ID | Yes |
-| Email | Yes |
-| College Name | Yes |
-| Location | Yes |
-| Event | Yes |
-| Password | Yes |
-
----
-
-## 🔐 Login System
-
-Students can log in using:
-
-- Email or Student ID
-- Password
-
-### Successful Login
+## 📁 Project Structure
 
 ```text
-Welcome to CampusConnect!
+CampusConnect-2026/
+│
+├── database/
+│   └── campusconnect.sql
+│
+├── docs/
+│   ├── screenshots/
+│   ├── CampusConnect_2026_Linux_Web_Verification_Report.pdf
+│   └── CampusConnect_2026_Linux_Web_Verification_Report.docx
+│
+├── website/
+│   ├── dashboard.php
+│   ├── db.example.php
+│   ├── index.php
+│   ├── login.php
+│   ├── logout.php
+│   ├── register.php
+│   └── style.css
+│
+├── .gitignore
+└── README.md
