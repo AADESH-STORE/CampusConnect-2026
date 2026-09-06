@@ -1,0 +1,21 @@
+# Database credentials
+website/db.php
+
+# Environment files
+.env
+.env.*
+
+# AWS private keys
+*.pem
+*.ppk
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
